@@ -1,0 +1,29 @@
+.header {
+	height: 50px;
+	background-color: #fff;
+	align-items: center;
+	display: flex;
+}
+
+.header__title {
+	font-weight: 600;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.header__currency-list {
+	display: flex;
+	margin-left: 20px;
+}
+
+.currency-list_item {
+	width: 150px;
+
+	&:not(:last-child) {
+		margin-right: 15px;
+	}
+}
+
+.currency_bold {
+	font-weight: 600;
+}
